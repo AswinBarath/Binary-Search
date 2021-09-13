@@ -185,4 +185,18 @@ public class OrderAgnosticBS {
 ---
 
 
-### 3.
+### 3. Find Smallest Letter Greater Than Target
+
+- Similar to Ceiling of a number
+- Change: Ignore mid == target condition
+- Change: Return start % arr.length as the result
+---
+
+
+### 4. Find First and Last Position of Element in Sorted Array `Facebook`
+
+- Apply Binary Search Twice:
+- Find the first occurrence of the target - Change: Update ans and end each time
+- Find the last occurrence of the target - Change: Update ans and start each time
+---
+
