@@ -144,7 +144,7 @@ public class OrderAgnosticBS {
 - **Ceiling of number**: Smallest element in array which is greater than or equal to target
 - Steps
 - 1. Find the closest or equal number to target
-- 2. Find all the numbers which are greater than the previous result
+- 2. Find all the numbers which are greater than the previous result (Binary Search)
 - 3. Return the smallest number from the previous category    
 ---  
 - _Consider the following example:_
@@ -154,4 +154,35 @@ public class OrderAgnosticBS {
 - ceiling(arr, target=4) = 5
 - ceiling(arr, target=9) = 9
 ---
+- If target is found, return the **target**
+- Else return the **start**
+- Because when the condition is violated in the while loop: `start = end + 1`
+-       start  target  end              =>              end  target  start
+- So the answer is not in this range, and the smallest element which is greater than or equal to target is the **start**
+---
 
+
+### 2. Floor of a number
+
+- **Ceiling of number**: Greatest element in array which is smaller than or equal to target
+- Steps
+- 1. Find the closest or equal number to target
+- 2. Find all the numbers which are smaller than the previous result (Binary Search)
+- 3. Return the greatest number from the previous category
+---  
+- _Consider the following example:_
+- arr = [2, 3, 5, 9, 14, 16, 18], target = 14
+- floor(arr, target=4) = 3
+- floor(arr, target=9) = 9
+- floor(arr, target=14) = 14
+- floor(arr, target=19) = 18
+---
+- If target is found, return the **target**
+- Else return the **end**
+- Because when the condition is violated in the while loop: `start = end + 1`
+-       start  target  end              =>              target  end  start
+- So the answer is not in this range, and the greatest element which is smaller than or equal to target is the **end**
+---
+
+
+### 3.
