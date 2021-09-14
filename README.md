@@ -200,3 +200,19 @@ public class OrderAgnosticBS {
 - Find the last occurrence of the target - Change: Update ans and start each time
 ---
 
+
+### 5. Find position of an element in a sorted array of infinite numbers `Amazon`
+
+- In an infinte array of numbers, the size is unknown.
+
+- Binary search divides the array by two for each iteration following **Top - down approach**
+
+- For this problem, as we are unaware about the **end** pointer, we will follow **Bottom - up approach**
+
+- *Bottom-up* : Start with a small chunk of array and double up the size of the chunk by two for every iteration
+- Apply Binary search for each chunk and keep doubling the chunk until the element is found.
+---
+
+
+
+
