@@ -240,3 +240,45 @@ public class OrderAgnosticBS {
 - And, finally return the answer
 
 ---
+
+
+### 8. Search in Rotated Sorted Array `Amazon`, `Google`
+
+#### Rotated Array:
+- Consider an array = `[2, 4, 5, 7, 8, 9, 10, 12]`
+- After 1st rotation, array = `[12, 2, 4, 5, 7, 8, 9, 10]`
+- After 2nd rotation, array = `[10, 12, 2, 4, 5, 7, 8, 9]`
+---
+#### Approach 1: Find the pivot in the array
+- pivot is from where your next numbers are ascending
+- **pivot** is also the largest number
+- For example: `[3, 4, 5, 6, 7, 0, 1, 2]`
+	- Here, the is pivot = 7
+	- Both parts before & after the pivot is sorted in ascending order
+- So, we can follow the following steps:
+	- Find pivot
+	- Search target in first half => Simple BS `(0 -> pivot)`
+	- If still not found, search target in second half => Simple BS `(pivot+1, end)`
+- Now, the problem is to find the pivot:
+	- Consider `[3, 4, 5, 6, 7, 0, 1, 2]`
+	- We can observe that only two elements `7, 0` are descending
+	- So, when do we find the answer:
+		- Case 1: When mid > mid+1 element, then mid is the pivot
+		- Case 2: When mid < mid-1 element, then mid-1 is the pivot
+		- Case 3: When start >= mid element, then end = mid - 1
+		- Case 4: When start < mid element, then start = mid + 1
+		- ( Explanation for case 3 & 4: if mid was pivot it would've returned by case 1 & 2... )
+		- ( Hence, proved that bigger number lies behind in case 3 and ahead in case 4, so ignore mid in case 3 and 4 using mid (+ or -) 1 )
+- Now, we have to find the target:
+	- If target == arr[pivot] return pivot
+	- If target >= arr[0], Search target in first half => Simple BS `(0 -> pivot)`
+	- If target < arr[pivot] search target in second half => Simple BS `(pivot+1, end)`
+
+---
+
+
+### 9. Search in Rotated Sorted Array with duplicates
+
+
+
+---

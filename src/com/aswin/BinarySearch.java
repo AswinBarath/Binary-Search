@@ -6,6 +6,7 @@ public class BinarySearch {
         int[] arr = {-18, -12, -4, 0, 2, 3, 4, 15, 16, 18, 22, 45, 89};
         int target = 3;
         int ans = binarySearch(arr, target);
+        System.out.println(arr.toString());
         System.out.println(ans);
     }
 
