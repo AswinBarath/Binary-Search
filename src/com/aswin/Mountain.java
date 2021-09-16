@@ -31,7 +31,7 @@ public class Mountain {
                 start = mid + 1;
 		// because we know that mid+1 element > mid element
             } 
-	    else if (arr[mid] > arr[mid+1]) {
+	    else {
 		// You're in dec part of the array
 		// this may be an ans, but look at left
 		// this is why end != mid - 1
@@ -40,7 +40,7 @@ public class Mountain {
         }
 	// In the end, start == end and pointing to the largest number because of the 2 checks above
 	// start and end are always trying to find the max element in the above 2 checks
-	// Hence, when they are pointing to just one element, that is the max one because that is the checks say
+	// Hence, when they are pointing to just one element, that is the max one because that is what the checks say
 	// More elaboration: at every point of the time for start and end, they have the best possible answer till that time
 	// and if we are saying that only one item is remaining, hence cux of above line that is the best possible ans
 

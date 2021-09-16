@@ -204,15 +204,39 @@ public class OrderAgnosticBS {
 ### 5. Find position of an element in a sorted array of infinite numbers `Amazon`
 
 - In an infinte array of numbers, the size is unknown.
-
 - Binary search divides the array by two for each iteration following **Top - down approach**
-
 - For this problem, as we are unaware about the **end** pointer, we will follow **Bottom - up approach**
-
 - *Bottom-up* : Start with a small chunk of array and double up the size of the chunk by two for every iteration
 - Apply Binary search for each chunk and keep doubling the chunk until the element is found.
 ---
 
 
+### 6. Peak Index in Mountain Array
+
+- Mountain Array is also known as **Bitonic array**.
+- In this array, the numbers in first part are sorted in increasing order and the second part in decreasing order.
+- Peak element is nothing but the maximum element in the array.
+- So, we have two cases where we can compare adjacent elements:
+	- **Ascending part** where we can update the start = mid + 1
+	- **Descending part** where we can update the end = mid
+
+- In the end, **start == end** and pointing to the largest number because of the 2 checks above
+- start and end are always trying to find the max element in the above 2 checks
+- Hence, when they are pointing to just one element, that is the max one because that is what the checks say
+- More elaboration: at every point of the time for start and end, 
+- they have the best possible answer till that time and if we are saying that only one item is remaining
+- hence because of above line that is the best possible ans
+
+---
 
 
+### 7. Find in Mountain Array
+
+- Similar to Peak Index in Mountain Array, except the **target** is given
+- Here, we can first find the *Peak Index*
+- Then, apply Order Agnostic Binary Search in both parts of the Mountain array:
+	- `0 -> peakIndex`
+	- `peakIndex+1 -> arr.length - 1`
+- And, finally return the answer
+
+---

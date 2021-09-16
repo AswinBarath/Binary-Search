@@ -38,7 +38,7 @@ public class Mountain {
 	    if(arr[mid] < arr[mid+1]) {
                 start = mid + 1;
             } 
-	    else if (arr[mid] > arr[mid+1]) {
+	    else {
                 end = mid;
             } 
         }
