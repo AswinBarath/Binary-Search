@@ -6,13 +6,16 @@
 
   - Find the middle element 
     - ( mid = ( start + end ) / 2 )
+  - Optimization for finding middle element
+    - mid = start + ( (end - start) / 2 )
+    - *Problem before: might be possible that (start + end) exceeds the range of int in Java*
   - If target > mid => search in the right
   - Else search in left
   - If middle element == target element (answer)
 
 ### Java Code
 
-```aidl
+```
 package com.aswin;
 
 public class BinarySearch {
@@ -77,7 +80,10 @@ public class BinarySearch {
     
 ### Java Code - Order Agnostic Binary Search
 
-```aidl
+- One small change in Binary Search logic: **find whether the array is sorted in ascending or descending**
+    - `boolean isAsc = arr[start] < arr[end]`
+
+```
 package com.aswin;
 
 public class OrderAgnosticBS {
