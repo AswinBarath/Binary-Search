@@ -454,16 +454,24 @@ public class OrderAgnosticBS {
 ---
 
 
-## 11. Split Array Largest Sum  `Google`
+## 11. Split Array Largest Sum  
+### `Google`, `Leetcode Hard Problem` 
 
-- 
+- Find the minimum (minAns) and maximum no. of splits (maxAns) we can make  
+- Take the minAns and maxAns as start and end respectively
+- Apply binary search such that
+    - the mid will be (minAns + maxAns) / 2
+    - Traverse the array and calculate the cummulative sum to calculate how many pieces you can divide the array with this mid (max sum)
+        - if sum becomes greater than mid, then reset sum to current number, and increment the no. of pieces
+        - else continue adding sum
+    - Now, apply checks for binary search
+        - If no. of pieces are greater than `m` (given no. of partitions) then update start = end + 1
+        - Else update end = mid
 
 ---
 
-### [ - JavaCode](./src/template_I/.java)
+### [Split Array Largest Sum - JavaCode](./src/binary_search_problems/SplitArrayLargestSum.java)
 
 ---
 
 ### [Split Array Largest Sum - LeetCode](https://leetcode.com/problems/split-array-largest-sum/)
-
----
