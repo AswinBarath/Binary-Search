@@ -32,7 +32,7 @@ public class SplitArrayLargestSum {
 			}
 
 			if (pieces > m) {
-				start = end + 1;
+				start = mid + 1;
 			} else {
 				end = mid;
 			}
