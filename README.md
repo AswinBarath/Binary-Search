@@ -1,5 +1,24 @@
 # Binary Search
 
+Problems based on the Binary Search
+
+## SDE Sheet problems on Binary Search
+
+[Sheet Link](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
+
+### Day 11
+
+| Completion Status | Problems on Binary Search | Explanation | Solution |
+| --- | --- | --- | --- |
+| 🔃 | [Calculating n-th real root using binary search](https://www.geeksforgeeks.org/calculating-n-th-real-root-using-binary-search/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Median in a row-wise sorted Matrix](https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1#) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [K-th Element of Two Sorted Arrays](https://www.geeksforgeeks.org/k-th-element-two-sorted-arrays/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+
+---
+
 **Condition: Array must be sorted**
 
 ---
