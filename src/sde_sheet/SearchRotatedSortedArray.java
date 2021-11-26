@@ -1,4 +1,4 @@
-package binary_search_problems;
+package sde_sheet;
 
 // 1. Rotated Binary Search: https://leetcode.com/problems/search-in-rotated-sorted-array/
 

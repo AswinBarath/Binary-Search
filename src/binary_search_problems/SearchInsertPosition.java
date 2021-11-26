@@ -1,4 +1,4 @@
-package template_I;
+package binary_search_problems;
 
 // Literally same as Ceiling Of A Number
 

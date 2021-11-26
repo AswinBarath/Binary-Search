@@ -1,4 +1,4 @@
-package template_II;
+package binary_search_problems;
 
 // Problem: https://leetcode.com/problems/find-in-mountain-array/
 public class FindInMountainArray {

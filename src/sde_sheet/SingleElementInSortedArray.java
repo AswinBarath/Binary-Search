@@ -1,4 +1,4 @@
-package binary_search_problems;
+package sde_sheet;
 
 public class SingleElementInSortedArray {
 

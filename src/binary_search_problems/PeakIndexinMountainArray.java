@@ -1,4 +1,4 @@
-package template_II;
+package binary_search_problems;
 
 // Problem 1: https://leetcode.com/problems/peak-index-in-a-mountain-array/
 // Problem 2: https://leetcode.com/problems/find-peak-element/

@@ -1,5 +1,9 @@
 # Binary Search
 
+**Condition: Array must be sorted**
+
+---
+
 Problems based on the Binary Search
 
 ## SDE Sheet problems on Binary Search
@@ -12,28 +16,26 @@ Problems based on the Binary Search
 | --- | --- | --- | --- |
 | 🔃 | [Calculating n-th real root using binary search](https://www.geeksforgeeks.org/calculating-n-th-real-root-using-binary-search/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
 | 🔃 | [Median in a row-wise sorted Matrix](https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1#) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
-| 🔃 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
-| 🔃 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| ✅ | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/SingleElementInSortedArray.java) |
+| ✅ | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Approach](#8-search-in-rotated-sorted-array) | [Java Soultion](./src/sde_sheet/.java) |
 | 🔃 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
 | 🔃 | [K-th Element of Two Sorted Arrays](https://www.geeksforgeeks.org/k-th-element-two-sorted-arrays/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
-
----
-
-**Condition: Array must be sorted**
+| 🔃 | [Allocate Minimum Number of Pages](https://www.interviewbit.com/problems/allocate-books/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Aggressive Cows](https://www.spoj.com/problems/AGGRCOW/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
 
 ---
 
 ## Goals
 
-- [x] [Steps used in Binary Search](#Steps used in Binary Search)
-- [x] [Binary Search in Java](#Binary Search in Java)
-- [x] [Order-Agnostic Binary Search](#Order-Agnostic Binary Search)
-- [x] [When do we apply Binary Search ?](#When do we apply Binary Search)
-- [ ] Templates(Patterns) in Binary Search
-	- [ ] Template I
-	- [ ] Template II
-	- [ ] Template III
-- [ ] [Problems on Binary Search](#Problems on Binary Search)
+- [x] [Steps used in Binary Search](#steps-used-in-binary-search)
+- [x] [Binary Search in Java](#binary-search-in-java)
+- [x] [Order-Agnostic Binary Search](#order-agnostic-binary-search)
+- [x] [When do we apply Binary Search ?](#when-do-we-apply-binary-search)
+- [x] Templates(Patterns) in Binary Search
+	- [x] [Template I](./src/template_I/BinarySearchTemplate_I.java)
+	- [x] [Template II](./src/template_II/BinarySearchTemplate_II.java)
+	<!-- - [x] [Template III](./src/template_III/BinarySearchTemplate_III.java) -->
+- [ ] [Problems on Binary Search](#problems-on-binary-search)
 	- [ ] Easy
 		- [x] [Square Root](https://leetcode.com/problems/sqrtx/)
 		- [x] [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
@@ -388,7 +390,8 @@ public class OrderAgnosticBS {
 ---
 
 
-## 8. Search in Rotated Sorted Array `Amazon`, `Google`
+## 8. Search in Rotated Sorted Array
+### `Amazon`, `Google`
 
 ### Rotated Array:
 - Consider an array = `[2, 4, 5, 7, 8, 9, 10, 12]`
@@ -397,7 +400,7 @@ public class OrderAgnosticBS {
 
 ---
 
-### Approach 1: Find the pivot in the array
+### Approach: Find the pivot in the array
 - pivot is from where your next numbers are ascending
 - **pivot** is also the largest number
 - For example: `[3, 4, 5, 6, 7, 0, 1, 2]`
@@ -486,6 +489,14 @@ public class OrderAgnosticBS {
     - Now, apply checks for binary search
         - If no. of pieces are greater than `m` (given no. of partitions) then update start = end + 1
         - Else update end = mid
+
+---
+
+<img src="assets/Split Array Largest Sum 1.jpg" alt="Split Array Largest Sum 1" width="400px" >
+
+<img src="assets/Split Array Largest Sum 2.jpg" alt="Split Array Largest Sum 2" width="400px" >
+
+<img src="assets/Split Array Largest Sum 3.jpg" alt="Split Array Largest Sum 3" width="400px" >
 
 ---
 

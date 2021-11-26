@@ -1,4 +1,4 @@
-package template_I;
+package binary_search_problems;
 
 public class FindFirstAndLastPosition {
 	public static void main(String[] args) {
