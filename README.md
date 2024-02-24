@@ -1,31 +1,21 @@
 # Binary Search
 
-**Condition: Array must be sorted**
+### Binary Search Study Material & Resources
+
+- [SDE Sheet - 180 FAANG Problems (Striver)](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
+- [Kunal Kushwaha - Java + DSA + Interview Course](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)
+    - [Binary Search Algorithm - Theory + Code](https://youtu.be/f6UU7V3szVw?si=-k6FO1LpfBKjp0aJ)
+    - [Binary Search Interview Questions - Google, Facebook, Amazon](https://youtu.be/W9QJ8HaRvJQ?si=m-niAYVCe9UWiFbT)
+    - [Binary Search in 2D Arrays](https://youtu.be/enI_KyGLYPo?si=pgnP1C-vNRWV31yO)
+
 
 ---
 
-Problems based on the Binary Search
+<details>
+    <summary>Problems based on the Binary Search (Big List) (Goals Tracking)</summary>
+    <p>
 
-## SDE Sheet problems on Binary Search
-
-[Sheet Link](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
-
-### Day 11
-
-| Completion Status | Problems on Binary Search | Explanation | Solution |
-| --- | --- | --- | --- |
-| 🔃 | [Calculating n-th real root using binary search](https://www.geeksforgeeks.org/calculating-n-th-real-root-using-binary-search/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
-| 🔃 | [Median in a row-wise sorted Matrix](https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1#) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
-| ✅ | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/SingleElementInSortedArray.java) |
-| ✅ | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Approach](#8-search-in-rotated-sorted-array) | [Java Soultion](./src/sde_sheet/.java) |
-| 🔃 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
-| 🔃 | [K-th Element of Two Sorted Arrays](https://www.geeksforgeeks.org/k-th-element-two-sorted-arrays/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
-| 🔃 | [Allocate Minimum Number of Pages](https://www.interviewbit.com/problems/allocate-books/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
-| 🔃 | [Aggressive Cows](https://www.spoj.com/problems/AGGRCOW/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
-
----
-
-## Goals
+### Problems based on the Binary Search (Big List) (Goals Tracking)
 
 - [x] [Steps used in Binary Search](#steps-used-in-binary-search)
 - [x] [Binary Search in Java](#binary-search-in-java)
@@ -83,7 +73,38 @@ Problems based on the Binary Search
 		- [ ] [Divide Chocolate Problem](https://curiouschild.github.io/leetcode/2019/06/21/divide-chocolate.html)
 
 
+</p>
+</details>
+
 ---
+
+<details>
+  <summary>Binary Search Problems (SDE Sheet - Day 11) (Striver) (Goals Tracking)</summary>
+<p>
+
+### Binary Search Problems (SDE Sheet - Day 11) (Striver) (Goals Tracking)
+
+- Difficulity: Medium to Hard
+
+| Completion Status | Problems on Binary Search | Explanation | Solution |
+| --- | --- | --- | --- |
+| 🔃 | [Calculating n-th real root using binary search](https://www.geeksforgeeks.org/calculating-n-th-real-root-using-binary-search/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Median in a row-wise sorted Matrix](https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1#) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| ✅ | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/SingleElementInSortedArray.java) |
+| ✅ | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Approach](#8-search-in-rotated-sorted-array) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [K-th Element of Two Sorted Arrays](https://www.geeksforgeeks.org/k-th-element-two-sorted-arrays/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Allocate Minimum Number of Pages](https://www.interviewbit.com/problems/allocate-books/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+| 🔃 | [Aggressive Cows](https://www.spoj.com/problems/AGGRCOW/) | [Brute, Better & Optimal Approaches](#) | [Java Soultion](./src/sde_sheet/.java) |
+
+</p>
+</details>
+
+---
+
+## Binary Search Notes
+
+**Condition: Array must be sorted**
 
 ### Steps used in Binary Search
 
@@ -96,7 +117,7 @@ Problems based on the Binary Search
   - Else search in left
   - If middle element == target element (answer)
 
-### Binary Search in Java
+### Binary Search in Java (Code)
 
 ```
 package com.aswin;
@@ -140,11 +161,11 @@ public class BinarySearch {
 
 ```
 
-## Order-Agnostic Binary Search
+### Order-Agnostic Binary Search
 
 - When the array order is unknown ( ascending order or descending order ?)
 
-### Steps for descending order
+#### Steps for descending order
 
 - Find the middle element
     - ( mid = ( start + end ) / 2 )
@@ -152,16 +173,14 @@ public class BinarySearch {
 - If target < mid => search in right
 - Else middle element == target element (answer)
 
-### So, How do we find the order?
+#### So, How do we find the order?
 
 - Just check the start and end
-
-
 - **Steps** :
     - if start < end => Ascending order
     - else => Descending order
     
-### Java Code - Order Agnostic Binary Search
+#### Java Code - Order Agnostic Binary Search
 
 - One small change in Binary Search logic: **find whether the array is sorted in ascending or descending**
     - `boolean isAsc = arr[start] < arr[end]`
@@ -220,21 +239,22 @@ public class OrderAgnosticBS {
 
 ```
 
-## When do we apply Binary Search ?
-
 ---
+
+### When do we apply Binary Search ?
 
 - If we are given a sorted array
 - When you are required to get one particular answer and you are following a continuous sequence to get the answer:
     - Square Root of a number
+- much more ...
 
 ---
 
-## Problems on Binary Search
+## Binary Search Problems w/ Dry Run, Breakdowns, & Code (Kunal Kushwaha)
 
----
+- Difficulity: Easy to Hard
 
-## 1. Ceiling of a number
+### 1. Ceiling of a number
 
 - **Ceiling of number**: Smallest element in array which is greater than or equal to target
 - Steps
@@ -257,12 +277,12 @@ public class OrderAgnosticBS {
 
 ---
 
-### [Ceiling of a number - JavaCode](./src/template_I/CeilingOfNumber.java)
+#### Java Code Link: [Ceiling of a number](./src/template_I/CeilingOfNumber.java)
 
 ---
 
 
-## 2. Floor of a number
+### 2. Floor of a number
 
 - **Ceiling of number**: Greatest element in array which is smaller than or equal to target
 - Steps
@@ -285,7 +305,7 @@ public class OrderAgnosticBS {
 
 ---
 
-### [Floor of a number - JavaCode](./src/template_I/CeilingOfNumber.java)
+#### Java Code Link: [Floor of a number - JavaCode](./src/template_I/CeilingOfNumber.java)
 
 ---
 
@@ -298,16 +318,14 @@ public class OrderAgnosticBS {
 
 ---
 
-### [Find Smallest Letter Greater Than Target - LeetCode](https://leetcode.com/problems/find-smallest-letter-greater-than-target)
+#### LeetCode Link: [Find Smallest Letter Greater Than Target - LeetCode](https://leetcode.com/problems/find-smallest-letter-greater-than-target)
+
+#### Java Code Link: [Find Smallest Letter Greater Than Target - JavaCode](./src/template_I/FindSmallestLetterGreaterThanTarget.java)
 
 ---
 
-### [Find Smallest Letter Greater Than Target - JavaCode](./src/template_I/FindSmallestLetterGreaterThanTarget.java)
 
----
-
-
-## 4. Find First and Last Position of Element in Sorted Array `Facebook`
+### 4. Find First and Last Position of Element in Sorted Array `Facebook`
 
 - Apply Binary Search Twice:
 - Find the first occurrence of the target - Change: Update ans and end each time
@@ -315,16 +333,15 @@ public class OrderAgnosticBS {
 
 ---
 
-### [Find First and Last Position of Element in Sorted Array - LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
+#### LeetCode Link: [Find First and Last Position of Element in Sorted Array - LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
+
+
+#### Java Code Link: [Find First and Last Position of Element in Sorted Array - JavaCode](./src/template_I/FindFirstAndLastPosition.java)
 
 ---
 
-### [Find First and Last Position of Element in Sorted Array - JavaCode](./src/template_I/FindFirstAndLastPosition.java)
 
----
-
-
-## [5. Find position of an element in a sorted array of infinite numbers](https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/) `Amazon`
+### [5. Find position of an element in a sorted array of infinite numbers](https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/) `Amazon`
 
 - In an infinte array of numbers, the size is unknown.
 - Binary search divides the array by two for each iteration following **Top - down approach**
@@ -334,12 +351,12 @@ public class OrderAgnosticBS {
 
 ---
 
-### [Find position of an element in a sorted array of infinite numbers - JavaCode](./src/template_I/SearchInInfiniteSortedArray.java)
+#### [Find position of an element in a sorted array of infinite numbers - JavaCode](./src/template_I/SearchInInfiniteSortedArray.java)
 
 ---
 
 
-## 6. Peak Index in Mountain Array
+### 6. Peak Index in Mountain Array
 
 - Mountain Array is also known as **Bitonic array**.
 - In this array, the numbers in first part are sorted in increasing order and the second part in decreasing order.
@@ -357,20 +374,20 @@ public class OrderAgnosticBS {
 
 ---
 
-### [Peak Index in Mountain Array - JavaCode](./src/template_II/PeakIndexinMountainArray.java)
+#### [Peak Index in Mountain Array - JavaCode](./src/template_II/PeakIndexinMountainArray.java)
 
 ---
 
-### [Peak Index in Mountain Array - LeetCode](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+#### [Peak Index in Mountain Array - LeetCode](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
 
 ---
 
-### [Find Peak Element - LeetCode](https://leetcode.com/problems/find-peak-element/)
+#### [Find Peak Element - LeetCode](https://leetcode.com/problems/find-peak-element/)
 
 ---
 
 
-## 7. Find in Mountain Array
+### 7. Find in Mountain Array
 
 - Similar to Peak Index in Mountain Array, except the **target** is given
 - Here, we can first find the *Peak Index*
@@ -381,26 +398,26 @@ public class OrderAgnosticBS {
 
 ---
 
-### [Find in Mountain Array - JavaCode](./src/template_II/FindInMountainArray.java)
+#### [Find in Mountain Array - JavaCode](./src/template_II/FindInMountainArray.java)
 
 ---
 
-### [Find in Mountain Array - LeetCode](https://leetcode.com/problems/find-in-mountain-array/)
+#### [Find in Mountain Array - LeetCode](https://leetcode.com/problems/find-in-mountain-array/)
 
 ---
 
 
-## 8. Search in Rotated Sorted Array
-### `Amazon`, `Google`
+### 8. Search in Rotated Sorted Array
+#### `Amazon`, `Google`
 
-### Rotated Array:
+#### Rotated Array:
 - Consider an array = `[2, 4, 5, 7, 8, 9, 10, 12]`
 - After 1st rotation, array = `[12, 2, 4, 5, 7, 8, 9, 10]`
 - After 2nd rotation, array = `[10, 12, 2, 4, 5, 7, 8, 9]`
 
 ---
 
-### Approach: Find the pivot in the array
+#### Approach: Find the pivot in the array
 - pivot is from where your next numbers are ascending
 - **pivot** is also the largest number
 - For example: `[3, 4, 5, 6, 7, 0, 1, 2]`
@@ -427,16 +444,16 @@ public class OrderAgnosticBS {
 
 ---
 
-### [Search in Rotated Sorted Array - JavaCode](./src/template_I/SearchRotatedSortedArray.java)
+#### [Search in Rotated Sorted Array - JavaCode](./src/template_I/SearchRotatedSortedArray.java)
 
 ---
 
-### [Search in Rotated Sorted Array - LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+#### [Search in Rotated Sorted Array - LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 ---
 
 
-## 9. Search in Rotated Sorted Array with duplicates
+### 9. Search in Rotated Sorted Array with duplicates
 
 - The approach for duplicates are same as the previous problem except
 	- The while loop should terminate when start>=end
@@ -448,16 +465,16 @@ public class OrderAgnosticBS {
 
 ---
 
-### [Search in Rotated Sorted Array with duplicates - JavaCode](./src/template_I/SearchRotatedSortedArray.java)
+#### [Search in Rotated Sorted Array with duplicates - JavaCode](./src/template_I/SearchRotatedSortedArray.java)
 
 ---
 
-### [Search in Rotated Sorted Array with duplicates - LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+#### [Search in Rotated Sorted Array with duplicates - LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 
 ---
 
 
-## 10. Find the Rotation Count in Rotated Sorted Array
+### 10. Find the Rotation Count in Rotated Sorted Array
 
 - Similar to previous approaches except
 	- We return 0 if array's pivot is -1
@@ -467,17 +484,17 @@ public class OrderAgnosticBS {
 
 ---
 
-### [Find the Rotation Count in Rotated Sorted Array - JavaCode](./src/template_I/FindRotationCountInRotatedSortedArray.java)
+#### [Find the Rotation Count in Rotated Sorted Array - JavaCode](./src/template_I/FindRotationCountInRotatedSortedArray.java)
 
 ---
 
-### [Find the Rotation Count in Rotated Sorted Array - GFG](https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)
+#### [Find the Rotation Count in Rotated Sorted Array - GFG](https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)
 
 ---
 
 
-## 11. Split Array Largest Sum  
-### `Google`, `Leetcode Hard Problem` 
+### 11. Split Array Largest Sum  
+#### `Google`, `Leetcode Hard Problem` 
 
 - Find the minimum (minAns) and maximum no. of splits (maxAns) we can make  
 - Take the minAns and maxAns as start and end respectively
@@ -500,8 +517,8 @@ public class OrderAgnosticBS {
 
 ---
 
-### [Split Array Largest Sum - JavaCode](./src/binary_search_problems/SplitArrayLargestSum.java)
+#### [Split Array Largest Sum - JavaCode](./src/binary_search_problems/SplitArrayLargestSum.java)
+
+#### [Split Array Largest Sum - LeetCode](https://leetcode.com/problems/split-array-largest-sum/)
 
 ---
-
-### [Split Array Largest Sum - LeetCode](https://leetcode.com/problems/split-array-largest-sum/)
