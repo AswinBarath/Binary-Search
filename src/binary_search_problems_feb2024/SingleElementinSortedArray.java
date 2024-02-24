@@ -1,4 +1,6 @@
-public class Solution {
+package binary_search_problems_feb2024;
+
+public class SingleElementinSortedArray {
     public int solve(int[] A) {
         int l = 0;
         int r = A.length - 1;

@@ -1,4 +1,6 @@
-public class Solution {
+package binary_search_problems_feb2024;
+
+public class Sorted_Insert_Position {
     public int searchInsert(int[] A, int k) {
         int n = A.length;
         int l = 0, r = n-1;
