@@ -106,16 +106,16 @@
 
 **Condition: Array must be sorted**
 
-### Steps used in Binary Search
+### Steps used in Binary Search (Algorithm)
 
-  - Find the middle element 
+  - Find the middle element (Type 1)
     - ( mid = ( start + end ) / 2 )
-  - Optimization for finding middle element
+  - Optimization for finding middle element (Type 2)
     - mid = start + ( (end - start) / 2 )
-    - *Problem before: might be possible that (start + end) exceeds the range of int in Java*
+    - *Problem before: **Integer Overflow!!!** - might be possible that (start + end) exceeds the range of int in Java*
   - If target > mid => search in the right
-  - Else search in left
-  - If middle element == target element (answer)
+  - Else => search in left
+  - If middle element == target element => return (answer)
 
 ### Binary Search in Java (Code)
 
@@ -160,6 +160,23 @@ public class BinarySearch {
 }
 
 ```
+
+### SafeGet Function in Binary Search (Important)
+
+- During Binary Search, when we access the array elements (at both ends) in search space, we must avoid **Array Index Out Of Bounds** Error.
+- So, always use the following function
+
+```
+int safeGet(int[] A, int i) {
+    if(0 <= i && i < A.length) {
+        return A[i];
+    } else {
+        return Integer.MAX_VALUE;
+    }
+}
+```
+
+---
 
 ### Order-Agnostic Binary Search
 
