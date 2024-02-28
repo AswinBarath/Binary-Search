@@ -260,9 +260,13 @@ public class OrderAgnosticBS {
 
 ### When do we apply Binary Search ?
 
-- If we are given a sorted array
+- Sorted array (If we are given as input)
 - When you are required to get one particular answer and you are following a continuous sequence to get the answer:
     - Square Root of a number
+- Maximize the minimum answer
+- Minimize the maximum answer
+- Maximize the answer
+- Minimize the answer
 - much more ...
 
 ---
