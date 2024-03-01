@@ -1,6 +1,6 @@
 package binary_search_on_answer;
 
-// TC: O(N*log(sum(A) - max(A)))
+// TC: O( log(sum(A) - max(A)) * N )
 // Must not sort the array => Because question demands to allocate books in contigous order
 
 public class Allocate_Books {
@@ -26,7 +26,7 @@ public class Allocate_Books {
             int s = countStudents(A, mid);
             if (s == B) {
                 ans = mid;
-                right = mid - 1; // Go Left (More Pages -> Why? minimize Pages)
+                right = mid - 1; // Go Left (Less Pages -> Why? minimize Pages)
             } else {
                 left = mid + 1; // Go Right
             }
