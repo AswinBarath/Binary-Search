@@ -1,5 +1,131 @@
 # Binary Search
 
+---
+
+## Introduction
+
+Welcome to the **Binary Search** repository! This project is a comprehensive collection of binary search problems, solutions, and study resources. My vision is to:
+- **Track and save my progress** as I master binary search and related DSA concepts.
+- **Document my coding and DSA journey** for future reference and reflection.
+- **Help others** by sharing clear explanations, code, and resources for learning and interview preparation.
+
+Whether you're a beginner or preparing for top tech interviews, you'll find step-by-step breakdowns, code templates, and a wide variety of problems here.
+
+---
+
+## Table of Contents
+
+| Section / Folder | Description |
+|------------------|-------------|
+| [Introduction](#introduction) | About this repo, vision, and goals |
+| [Study Material & Resources](#binary-search-study-material--resources) | Curated links to top binary search resources |
+| [Problems (Big List)](#problems-based-on-the-binary-search-big-list-goals-tracking) | Main tracking list of binary search problems |
+| [SDE Sheet Problems](#binary-search-problems-sde-sheet---day-11-striver-goals-tracking) | Striver's SDE Sheet binary search problems |
+| [Binary Search Notes](#binary-search-notes) | Key concepts, code snippets, and explanations |
+| [src/](src/) | Source code for all problems and templates |
+| &nbsp;&nbsp;[binary_search_implementations/](src/binary_search_implementations/) | Core binary search implementations |
+| &nbsp;&nbsp;[binary_search_problems/](src/binary_search_problems/) | Classic and LeetCode-style problems |
+| &nbsp;&nbsp;[binary_search_problems_feb2024/](src/binary_search_problems_feb2024/) | February 2024 problem set |
+| &nbsp;&nbsp;[binary_search_on_answer/](src/binary_search_on_answer/) | Advanced "binary search on answer" problems |
+| &nbsp;&nbsp;[template_I/](src/template_I/) | Binary Search Template I and related problems |
+| &nbsp;&nbsp;[template_II/](src/template_II/) | Binary Search Template II and related problems |
+| &nbsp;&nbsp;[template_III/](src/template_III/) | Binary Search Template III and related problems |
+| &nbsp;&nbsp;[binary_search_templates/](src/binary_search_templates/) | General binary search templates |
+| &nbsp;&nbsp;[sde_sheet/](src/sde_sheet/) | SDE Sheet Java solutions |
+| [bin/](bin/) | Compiled Java class files (auto-generated) |
+| [assets/](assets/) | Visual aids and diagrams for explanations |
+| [README.md](README.md) | This file: documentation, progress, and notes |
+| [.project, .classpath, Binary Search.iml](.project) | Project config files for IDEs |
+| [.idea/, .vscode/](.idea/) | IDE/editor settings (auto-generated) |
+
+---
+
+## 📂 Detailed Source File Index
+
+Below is a detailed, clickable list of every Java source file and associated documentation file in this repository, organized by folder for easy access.
+
+### src/binary_search_implementations
+- [BinarySearch.java](src/binary_search_implementations/BinarySearch.java)
+- [OrderAgnosticBinarySearch.java](src/binary_search_implementations/OrderAgnosticBinarySearch.java)
+
+### src/binary_search_problems
+- [CeilingOfNumber.java](src/binary_search_problems/CeilingOfNumber.java)
+- [FindFirstAndLastPosition.java](src/binary_search_problems/FindFirstAndLastPosition.java)
+- [FindInMountainArray.java](src/binary_search_problems/FindInMountainArray.java)
+- [FindRotationCountInRotatedSortedArray.java](src/binary_search_problems/FindRotationCountInRotatedSortedArray.java)
+- [FindSmallestLetterGreaterThanTarget.java](src/binary_search_problems/FindSmallestLetterGreaterThanTarget.java)
+- [FirstBadVersion.java](src/binary_search_problems/FirstBadVersion.java)
+- [FloorOfNumber.java](src/binary_search_problems/FloorOfNumber.java)
+- [GuessNumberHigherOrLower.java](src/binary_search_problems/GuessNumberHigherOrLower.java)
+- [KthMissingPositiveNumber.java](src/binary_search_problems/KthMissingPositiveNumber.java)
+- [PeakIndexinMountainArray.java](src/binary_search_problems/PeakIndexinMountainArray.java)
+- [SearchInInfiniteSortedArray.java](src/binary_search_problems/SearchInInfiniteSortedArray.java)
+- [SearchInsertPosition.java](src/binary_search_problems/SearchInsertPosition.java)
+- [SearchMinInRotatedSortedArray.java](src/binary_search_problems/SearchMinInRotatedSortedArray.java)
+- [SearchRotatedSortedArray.java](src/binary_search_problems/SearchRotatedSortedArray.java)
+- [SingleElementInSortedArray.java](src/binary_search_problems/SingleElementInSortedArray.java)
+- [SplitArrayLargestSum.java](src/binary_search_problems/SplitArrayLargestSum.java)
+- [SquareRoot.java](src/binary_search_problems/SquareRoot.java)
+- [Sum_of_k_Mirror_Numbers.java](src/binary_search_problems/Sum_of_k_Mirror_Numbers.java)
+- [Sum_of_k_Mirror_Numbers.md](src/binary_search_problems/Sum_of_k_Mirror_Numbers.md)
+
+### src/binary_search_problems_feb2024
+- [AND_OR_NOT.java](src/binary_search_problems_feb2024/AND_OR_NOT.java)
+- [AND_OR_NOT_clean_version.java](src/binary_search_problems_feb2024/AND_OR_NOT_clean_version.java)
+- [Ath_Magical_Number.java](src/binary_search_problems_feb2024/Ath_Magical_Number.java)
+- [FindPeakElement.java](src/binary_search_problems_feb2024/FindPeakElement.java)
+- [MatrixSearch.java](src/binary_search_problems_feb2024/MatrixSearch.java)
+- [Maximum_height_of_staircase.java](src/binary_search_problems_feb2024/Maximum_height_of_staircase.java)
+- [Minimum_Difference.java](src/binary_search_problems_feb2024/Minimum_Difference.java)
+- [Search_for_a_Range.java](src/binary_search_problems_feb2024/Search_for_a_Range.java)
+- [SingleElementinSortedArray.java](src/binary_search_problems_feb2024/SingleElementinSortedArray.java)
+- [Sorted_Insert_Position.java](src/binary_search_problems_feb2024/Sorted_Insert_Position.java)
+
+### src/binary_search_on_answer
+- [AggressiveCows.java](src/binary_search_on_answer/AggressiveCows.java)
+- [Allocate_Books.java](src/binary_search_on_answer/Allocate_Books.java)
+- [AND_OR_NOT_clean_version.java](src/binary_search_on_answer/AND_OR_NOT_clean_version.java)
+- [Painters_Partition_Problem.java](src/binary_search_on_answer/Painters_Partition_Problem.java)
+- [Special_Integer.java](src/binary_search_on_answer/Special_Integer.java)
+
+### src/template_I
+- [BinarySearchTemplate_I.java](src/template_I/BinarySearchTemplate_I.java)
+- [CeilingOfNumber.java](src/template_I/CeilingOfNumber.java)
+- [FindFirstAndLastPosition.java](src/template_I/FindFirstAndLastPosition.java)
+- [FindRotationCountInRotatedSortedArray.java](src/template_I/FindRotationCountInRotatedSortedArray.java)
+- [FindSmallestLetterGreaterThanTarget.java](src/template_I/FindSmallestLetterGreaterThanTarget.java)
+- [FloorOfNumber.java](src/template_I/FloorOfNumber.java)
+- [GuessNumberHigherOrLower.java](src/template_I/GuessNumberHigherOrLower.java)
+- [README.md](src/template_I/README.md)
+- [SearchInInfiniteSortedArray.java](src/template_I/SearchInInfiniteSortedArray.java)
+- [SearchInsertPosition.java](src/template_I/SearchInsertPosition.java)
+- [SearchMinInRotatedSortedArray.java](src/template_I/SearchMinInRotatedSortedArray.java)
+- [SearchRotatedSortedArray.java](src/template_I/SearchRotatedSortedArray.java)
+- [SingleElementInSortedArray.java](src/template_I/SingleElementInSortedArray.java)
+- [SquareRoot.java](src/template_I/SquareRoot.java)
+
+### src/template_II
+- [BinarySearchTemplate_II.java](src/template_II/BinarySearchTemplate_II.java)
+- [FindInMountainArray.java](src/template_II/FindInMountainArray.java)
+- [FirstBadVersion.java](src/template_II/FirstBadVersion.java)
+- [KthMissingPositiveNumber.java](src/template_II/KthMissingPositiveNumber.java)
+- [PeakIndexinMountainArray.java](src/template_II/PeakIndexinMountainArray.java)
+- [README.md](src/template_II/README.md)
+
+### src/template_III
+- [PeakIndexinMountainArray.java](src/template_III/PeakIndexinMountainArray.java)
+- [README.md](src/template_III/README.md)
+
+### src/binary_search_templates
+- [BinarySearchTemplate_I.java](src/binary_search_templates/BinarySearchTemplate_I.java)
+- [BinarySearchTemplate_II.java](src/binary_search_templates/BinarySearchTemplate_II.java)
+
+### src/sde_sheet
+- [SearchRotatedSortedArray.java](src/sde_sheet/SearchRotatedSortedArray.java)
+- [SingleElementInSortedArray.java](src/sde_sheet/SingleElementInSortedArray.java)
+
+---
+
 ### Binary Search Study Material & Resources
 
 - [SDE Sheet - 180 FAANG Problems (Striver)](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
