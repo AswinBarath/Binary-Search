@@ -1,7 +1,5 @@
 # Binary Search
 
----
-
 ## Introduction
 
 Welcome to the **Binary Search** repository! This project is a comprehensive collection of binary search problems, solutions, and study resources. My vision is to:
